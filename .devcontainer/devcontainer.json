@@ -1,0 +1,30 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "guilhermerodz.veist",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "vscode-icons-team.vscode-icons",
+        "ms-vscode-remote.remote-containers"
+      ],
+      "settings": {
+        "workbench.colorTheme": "Veist",
+        "workbench.activityBar.location": "top",
+        "workbench.iconTheme": "vscode-icons",
+        "editor.formatOnSave": true,
+        "explorer.excludeGitIgnore": true,
+        "workbench.panel.defaultLocation": "bottom",
+        "window.titleBarStyle": "custom",
+        "dependi.extras.silenceUpdateMessages": true,
+        "workbench.startupEditor": "none"
+      }
+    }
+  },
+  "portsAttributes": {
+    "5173": {
+      "label": "vite"
+    }
+  }
+}
