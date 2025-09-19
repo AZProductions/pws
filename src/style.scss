@@ -5,5 +5,13 @@
 @use "@carbon/ibm-products/css/index";
 
 :root {
-  @include react.theme(react.$g90);
+  @include react.theme(react.$g10);
+}
+
+.cds--content {
+  padding: unset !important;
+}
+
+a.cds--header__name {
+  padding: 0 1rem;
 }
