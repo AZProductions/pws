@@ -1,0 +1,9 @@
+@use "@carbon/react" with (
+  $font-path: "@ibm/plex"
+);
+
+@use "@carbon/ibm-products/css/index";
+
+:root {
+  @include react.theme(react.$g90);
+}
